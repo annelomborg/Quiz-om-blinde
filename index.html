@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Test din viden om blinde og svagsynede</title>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href=""><img src="img/logo.png" alt="blinde-logo"></a>
+        </div>
+        <div class="nav">
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="quiz">
+
+            <div class="quizStart">
+                <h2>Test din viden om <br>blinde og svagsynede</h2>
+                <p>I quizzen kan du lære mere om udfordringerne <br>i blinde og svagsynedes liv</p>
+                <button class="btn" onclick="start()">Start quizzen!</button>
+            </div>
+        
+
+            <div class="alder">
+                <h3>Hvilket klasse går du i?</h3>
+                <ul class="option1">
+                    <li>5. klasse</li>
+                    <li>6. klasse</li>
+                    <li>7. klasse</li>
+                </ul>
+            </div>
+
+            <div class="q1"> 
+                <h3>Må man gå hen og klappe en førerhund?</h3>
+                <ul class="option2">
+                    <li>Ja, det må man altid. Man behøver ikke at spørge først</li>
+                    <li>Hvis man spørger ejeren om lov først, og man får et ja</li>
+                    <li>Nej, man må aldrig klappe en førerhund</li>
+                </ul>
+            </div>
+
+            <div class="a1">
+                <h3>Det korrekte svar er</h3>
+                <p>b: <b>Hvis man spørger ejeren om lov først, og man får et ja.</b><br><br> Førerhunde er på arbejde når de går rundt med deres ejer. Det er vigtigt at spørge om lov, før du klapper en førerhund.
+                    (Indsæt billede af førerhund)
+                </p>
+                <button class="btn" onclick="spørgsmål2()">Næste spørgsmål</button>
+            </div>
+
+            <div class="q2"> 
+                <h3>Kan blinde læse og skrive?</h3>
+                <ul class="option3">
+                    <li>Nej, de kan kun snakke</li>
+                    <li>Ja, men de har et særligt blinde-sprog</li>
+                    <li>Ja, det kan de sagtens</li>
+                </ul>
+            </div>
+            <div class="a2">
+                <h3>Det korrekte svar er</h3>
+                <p>b: <b>Ja, de har et særligt blinde-sprog</b><br><br>Blinde kan læse og skrive ved hjælp af flere ting... De kan også bruge braille. Her på hjemmesiden kan du selv forsøge dig med braille!</p>
+                <button class="btn" onclick="spørgsmål3()">Næste spørgsmål</button>
+            </div>
+
+            <div class="q3"> 
+                <h3>Kan en blind nogensinde få synet tilbage</h3>
+                <ul class="option4">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="a3">
+                <h3>Det korrekte svar er</h3>
+                <p>b: Op til 3 år</p>
+                <button class="btn" onclick="spørgsmål4()">Næste spørgsmål</button>
+            </div>
+
+            <div class="q4"> 
+                <h3>Må Datatilsynet uddele bøder for lovovertrædelser/misbrug af personoplysninger på nettet?</h3>
+                <ul class="option5">
+                    <li>Ja</li>
+                    <li>Nej</li>
+                </ul>
+            </div>
+            <div class="a4">
+                <h3>Det korrekte svar er</h3>
+                <p>a: Ja</p>
+                <button class="btn" onclick="spørgsmål5()">Næste spørgsmål</button>
+            </div>
+
+            <div class="q5"> 
+                <h3>Hvad står GDPR for?</h3>
+                <ul class="option6">
+                    <li>General Data Preparation Regulation</li>
+                    <li>Gender Data Protection Regulation</li>
+                    <li>General Data Protection Regulation</li>
+                </ul>
+            </div>
+            <div class="a5">
+                <h3>Det korrekte svar er</h3>
+                <p>c: General Data Protection Regulation</p>
+                <button class="btn" onclick="tak()">Afslut quiz</button>
+            </div>
+
+            <div class="slut">
+                <h3>Tak fordi du tog quizzen! Vi håber at du har fået ny viden omkring blinde og svagsynede!</h3>
+                <button class="btn" onclick="afslut()">Gå til forsiden</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
